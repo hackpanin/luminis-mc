@@ -1,0 +1,11 @@
+family,configuration,polarization,collapse_rms
+homogeneous,radius sweep,circular,0.021828318946192863
+homogeneous,radius sweep,linear,0.014667847068713102
+homogeneous_mie,radius sweep,circular,0.017211137115344752
+homogeneous_mie,radius sweep,linear,0.013093226206847592
+mixture,alpha sweep,circular,0.0010685073362923282
+mixture,alpha sweep,linear,0.0009923744611418119
+bilayer,normal,circular,0.015382268641272368
+bilayer,normal,linear,0.018008245489343933
+bilayer,inverse,circular,0.01161262885788733
+bilayer,inverse,linear,0.016039865847335147

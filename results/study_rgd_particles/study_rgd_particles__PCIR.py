@@ -5,7 +5,7 @@ import numpy as np
 from luminis_mc import (
     Experiment,
     SweepManager,
-    Laser, RGDMedium, Sample, FarFieldCBSSensor, StatisticsSensor, SensorsGroup,
+    Laser, RGDMedium, MieMedium, Sample, FarFieldCBSSensor, StatisticsSensor, SensorsGroup,
     SimConfig, RayleighDebyeEMCPhaseFunction,
     run_simulation_parallel, postprocess_farfield_cbs,
     derived_quantities,
@@ -85,7 +85,7 @@ def build_species(rad):
         WAVELENGTH, rad, N_PARTICLE, N_MEDIUM,
         PHASEF_NDIV, PHASEF_THETA_MIN, PHASEF_THETA_MAX,
     )
-    return RGDMedium(phase, rad, N_PARTICLE, N_MEDIUM, WAVELENGTH)
+    return MieMedium(phase, rad, N_PARTICLE, N_MEDIUM, WAVELENGTH)
 
 
 def set_albedo(medium, mu_a_percent, mfp):
